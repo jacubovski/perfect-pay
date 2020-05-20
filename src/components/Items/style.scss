@@ -1,0 +1,103 @@
+
+.price-item {
+  font-size: 20px;
+  color: rgb(46, 204, 113);
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px auto;
+  width: 50%;
+  justify-content: center;
+}
+.box-item {
+  margin: 6px;
+  background-color: #FFF;
+  width: 250px;
+  height: 300px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 125px;
+    height: 125px;
+    padding-top: 15px;
+    text-align: center;
+  }
+  span {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    background: white;
+  }
+}
+.quantity {
+  font-size: 16px;
+  color: rgb(51, 51, 51);
+  font-family: Roboto, sans-serif;
+  -webkit-appearance: none;
+  padding: 9px 12px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(178, 190, 195);
+  border-image: initial;
+  width: 40%;
+  margin: 0 5px;
+}
+
+.btn-buy {
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  background-color: rgb(5, 196, 107);
+  color: white;
+  font-weight: bold;
+  user-select: none;
+  touch-action: manipulation;
+  padding: 9px 12px;
+  border-radius: 3px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.btn-sell {
+  font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    user-select: none;
+    touch-action: manipulation;
+    padding: 9px 12px;
+    border-radius: 3px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.bgRed {
+  background-color: rgb(245, 59, 87);
+  color: #fff;
+}
+@media screen and (max-width: 992px) {
+  .total-money, .box {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 768) {
+  .total-money, .box {
+    width: 100%;
+  }
+}

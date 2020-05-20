@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  padding: 10px!important;
+  height: 80px;
+  background-color: #FFF;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  h1 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px;
+  }
+}

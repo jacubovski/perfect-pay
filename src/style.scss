@@ -1,0 +1,32 @@
+html, body {
+  padding:0!important;
+  margin: 0!important;
+  box-sizing: border-box;
+  background-color: #f1f2f6;
+  color: rgb(51, 51, 51);
+  font-family: 'Roboto', sans-serif;
+ }
+.layout{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.total-money {
+  color: white;
+  background-color: rgb(46, 204, 113);
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  height: 40px;
+  margin: 10px auto;
+  width: 50%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left:25%;
+  width: 50%;
+  padding: 10px 0;
+  margin:0 auto;
+}
